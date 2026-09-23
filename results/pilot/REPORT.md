@@ -1,4 +1,4 @@
-# Pilot report — seed 7
+# Pilot report, seed 7
 
 This run validates the simulator, training loop, checkpoints, corruption evaluation, and information probes. It is not evidence for a paper claim.
 
