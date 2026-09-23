@@ -1,0 +1,58 @@
+{
+  "gaussian_ib": {
+    "clean": {
+      "loss": 0.17291412651538848,
+      "observation_mse": 0.0279178261756897,
+      "reward_mse": 0.13313280940055847,
+      "rate_nats": 23.726982879638673,
+      "topology_loss": 0.0,
+      "state_r2": 0.5903996825218201,
+      "heading_ring_r2": 0.9866082668304443,
+      "goal_accuracy": 0.9725694444444445,
+      "goal_information_lower_bound_bits": 1.803120602563538,
+      "state_information_gaussian_proxy_bits": 2.020301580429077,
+      "latent_participation_ratio": 3.556931392511375
+    },
+    "corrupt": {
+      "loss": 0.1774990439414978,
+      "observation_mse": 0.030685261264443396,
+      "reward_mse": 0.13495016247034072,
+      "rate_nats": 23.727232360839842,
+      "topology_loss": 0.0,
+      "state_r2": 0.5316530466079712,
+      "heading_ring_r2": 0.966821014881134,
+      "goal_accuracy": 0.8204861111111111,
+      "goal_information_lower_bound_bits": 1.29554962040516,
+      "state_information_gaussian_proxy_bits": 1.472282886505127,
+      "latent_participation_ratio": 3.7034690761708067
+    }
+  },
+  "modular_ring_ib": {
+    "clean": {
+      "loss": 0.18387678265571594,
+      "observation_mse": 0.029832405596971513,
+      "reward_mse": 0.13827953338623047,
+      "rate_nats": 27.20602035522461,
+      "topology_loss": 0.10809164494276047,
+      "state_r2": 0.5714811682701111,
+      "heading_ring_r2": 0.9876486659049988,
+      "goal_accuracy": 0.8972222222222223,
+      "goal_information_lower_bound_bits": 1.5716743922730538,
+      "state_information_gaussian_proxy_bits": 1.8138952255249023,
+      "latent_participation_ratio": 3.763964575440413
+    },
+    "corrupt": {
+      "loss": 0.18908398747444152,
+      "observation_mse": 0.03273016288876533,
+      "reward_mse": 0.14055155217647552,
+      "rate_nats": 27.199020767211913,
+      "topology_loss": 0.11013822108507157,
+      "state_r2": 0.548318088054657,
+      "heading_ring_r2": 0.9698347449302673,
+      "goal_accuracy": 0.790625,
+      "goal_information_lower_bound_bits": 1.166783316351656,
+      "state_information_gaussian_proxy_bits": 1.6083225011825562,
+      "latent_participation_ratio": 3.967159325963172
+    }
+  }
+}

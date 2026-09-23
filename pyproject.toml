@@ -1,0 +1,10 @@
+[project]
+name = "neuro-vla-ib"
+version = "0.1.0"
+description = "Information-theoretic neuro-inspired world models for language-conditioned robot RL"
+requires-python = ">=3.11"
+dependencies = ["torch", "numpy", "scikit-learn", "pyyaml", "matplotlib"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+

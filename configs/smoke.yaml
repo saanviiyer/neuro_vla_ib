@@ -1,0 +1,17 @@
+seed: 1
+train_episodes: 64
+test_episodes: 32
+sequence_length: 8
+batch_size: 32
+epochs: 1
+hidden_dim: 24
+latent_dim: 12
+goal_embed_dim: 8
+learning_rate: 0.001
+beta_rate: 0.001
+topology_weight: 0.01
+observation_noise: 0.015
+device: cpu
+language_embeddings: null
+train_paraphrases: [0, 1]
+test_paraphrases: [2]

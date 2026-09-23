@@ -1,0 +1,76 @@
+{
+  "gaussian_ib": {
+    "clean": {
+      "loss": 2.1468961238861084,
+      "observation_mse": 0.29116445779800415,
+      "reward_mse": 1.8553458452224731,
+      "rate_nats": 0.38569170236587524,
+      "topology_loss": 0.0,
+      "state_r2": 0.49284452199935913,
+      "heading_ring_r2": 0.8858038187026978,
+      "goal_accuracy": 1.0,
+      "goal_information_lower_bound_bits": 1.599020146192492,
+      "state_information_gaussian_proxy_bits": 1.2020726203918457,
+      "latent_participation_ratio": 2.5022743440098623
+    },
+    "corrupt": {
+      "loss": 2.1447980403900146,
+      "observation_mse": 0.29201340675354004,
+      "reward_mse": 1.8523987531661987,
+      "rate_nats": 0.38589197397232056,
+      "topology_loss": 0.0,
+      "state_r2": 0.19783011078834534,
+      "heading_ring_r2": 0.3844973146915436,
+      "goal_accuracy": 0.974025974025974,
+      "goal_information_lower_bound_bits": 1.4670081368197618,
+      "state_information_gaussian_proxy_bits": 0.4247516393661499,
+      "latent_participation_ratio": 4.271507753400329
+    },
+    "history": [
+      {
+        "loss": 1.8958538174629211,
+        "observation_mse": 0.31182199716567993,
+        "reward_mse": 1.5837088823318481,
+        "rate_nats": 0.3229787200689316,
+        "topology_loss": 0.0
+      }
+    ]
+  },
+  "modular_ring_ib": {
+    "clean": {
+      "loss": 2.1419882774353027,
+      "observation_mse": 0.30762410163879395,
+      "reward_mse": 1.827885627746582,
+      "rate_nats": 0.3873995542526245,
+      "topology_loss": 0.6091221570968628,
+      "state_r2": 0.4983918368816376,
+      "heading_ring_r2": 0.7505327463150024,
+      "goal_accuracy": 0.987012987012987,
+      "goal_information_lower_bound_bits": 1.8071266614376873,
+      "state_information_gaussian_proxy_bits": 1.353958249092102,
+      "latent_participation_ratio": 3.1165305869967996
+    },
+    "corrupt": {
+      "loss": 2.1391055583953857,
+      "observation_mse": 0.3083226680755615,
+      "reward_mse": 1.8243036270141602,
+      "rate_nats": 0.38757193088531494,
+      "topology_loss": 0.6091616749763489,
+      "state_r2": 0.4893517792224884,
+      "heading_ring_r2": 0.60915607213974,
+      "goal_accuracy": 0.987012987012987,
+      "goal_information_lower_bound_bits": 1.7819107229686562,
+      "state_information_gaussian_proxy_bits": 1.138491153717041,
+      "latent_participation_ratio": 3.3531024889689554
+    },
+    "history": [
+      {
+        "loss": 1.8758677244186401,
+        "observation_mse": 0.30155839025974274,
+        "reward_mse": 1.5677052736282349,
+        "rate_nats": 0.3230036795139313,
+        "topology_loss": 0.6281216740608215
+      }
+    ]
+  }
+}
